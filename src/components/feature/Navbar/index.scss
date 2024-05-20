@@ -1,0 +1,54 @@
+.nav {
+  background-color: blueviolet;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    column-gap: 10px;
+    width: 100%;
+
+    input {
+      padding: 15px 30px;
+      border-radius: 30px;
+      border: none;
+    }
+
+    button {
+      display: inline-flex;
+      color: #fff;
+      background-color: blueviolet;
+      padding: 10px 30px;
+      border: 1px solid blueviolet;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 0 10px white;
+      &:hover {
+        background-color: white;
+        color: blueviolet;
+      }
+    }
+  }
+
+  .inputBox {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    padding: 10px;
+    border-radius: 50px;
+    column-gap: 10px;
+
+    input {
+      cursor: pointer;
+    }
+
+    .temperature {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.week-weather-cont {
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 150px;
+  padding: 50px;
+  .all_day_wheater {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    .dayWeather {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      justify-content: center;
+      border: 1px solid gray;
+      border-radius: 5px;
+      align-items: center;
+      padding: 15px 30px;
+      transition: all 0.5s;
+      &:hover {
+        transform: translateY(-4px);
+        cursor: pointer;
+        box-shadow: 0 0 15px gray;
+      }
+
+      .percent {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        font-size: 30px;
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
